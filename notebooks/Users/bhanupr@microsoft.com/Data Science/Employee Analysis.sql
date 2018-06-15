@@ -43,7 +43,7 @@ select * from emp
 
 -- COMMAND ----------
 
-select count(*), state from emp where salary > 280000 group by state
+select count(*), state from emp where salary > 250000 group by state
 
 -- COMMAND ----------
 
